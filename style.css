@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display+SC:wght@400;700;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
-
+:root{
+    --blue:#25354f;
+    --green: #a2c44c;
+    --paragraph: 'Montserrat', sans-serif;
+    --title: 'Playfair Display', serif;
+}
 p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--paragraph);
     text-align: justify;
     color: #25354fd2;
 }
@@ -13,43 +18,43 @@ p {
     
 }
 .title {
-    font-family: 'Playfair Display';
+    font-family: var(--title);
     font-weight: 700;
-    color: #a2c44c;
+    color: var(--green);
     text-align: left;
 }
 .title:hover{
-    color: #25354f!important;
+    color: var(--blue)!important;
     cursor: pointer;
 }
 .sub-title{
-    color: #25354f;
+    color: var(--blue);
 }
 .nav-title{
     font-family: 'Playfair Display SC', serif;
     font-weight: 600;
     font-size: large;
-    color: #25354f!important;
+    color: var(--blue)!important;
 }
 .active {
-    color: #a2c44c!important;
+    color: var(--green)!important;
 }
 .nav-title:hover{
-    color: #a2c44c!important;
+    color: var(--green)!important;
     cursor: pointer;
-    border-bottom: 2px solid #25354f;
+    border-bottom: 2px solid var(--blue);
 }
 .section-main-title{
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--paragraph);
     text-align: center;
-    background-color: #a2c44c;
-    color: #25354f;
+    background-color: var(--green);
+    color: var(--blue);
 }
 .section-title{
-    font-family: 'Playfair Display', serif;
+    font-family: var(--title);
     font-weight: 600;
-    color: #25354f;
+    color: var(--blue);
 }
 .footer{
-    background-color: #25354f;
+    background-color: var(--blue);
 }
