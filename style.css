@@ -6,9 +6,12 @@ font-family: 'Playfair Display SC', serif;
 }
 p {
     font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+text-align: justify;
 }
 .main-title{
     text-align: center;
+    
 }
 .title {
     font-family: 'Playfair Display';
@@ -20,6 +23,9 @@ p {
 }
 .sub-title{
     color: #25354f;
+    font-size: large;
+    text-align: center;
+    letter-spacing: 1px;
 }
 .nav-title{
     font-family: 'Playfair Display SC', serif;
@@ -34,4 +40,14 @@ p {
     color: #a2c44c!important;
     cursor: pointer;
     border-bottom: 2px solid #25354f;
+}
+.section-main-title{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #a2c44c;
+    color: #25354f;
+}
+.section-title{
+    font-family: 'Playfair Display', serif;
+    color: #25354f;
 }
