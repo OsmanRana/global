@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display+SC:wght@400;700;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
-body{
-    font-family: 'Montserrat', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Playfair Display SC', serif;
-}
+
 p {
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 1px;
 text-align: justify;
 }
 .main-title{
@@ -15,7 +10,9 @@ text-align: justify;
 }
 .title {
     font-family: 'Playfair Display';
+    font-weight: 700;
     color: #a2c44c;
+    text-align: left;
 }
 .title:hover{
     color: #25354f!important;
@@ -23,9 +20,6 @@ text-align: justify;
 }
 .sub-title{
     color: #25354f;
-    font-size: large;
-    text-align: center;
-    letter-spacing: 1px;
 }
 .nav-title{
     font-family: 'Playfair Display SC', serif;
@@ -50,4 +44,7 @@ text-align: justify;
 .section-title{
     font-family: 'Playfair Display', serif;
     color: #25354f;
+}
+.footer{
+    background-color: #25354f;
 }
