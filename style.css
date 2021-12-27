@@ -2,7 +2,11 @@
 
 p {
     font-family: 'Montserrat', sans-serif;
-text-align: justify;
+    text-align: justify;
+    color: #25354fd2;
+}
+.bold{
+    font-weight: bold;
 }
 .main-title{
     text-align: center;
@@ -43,6 +47,7 @@ text-align: justify;
 }
 .section-title{
     font-family: 'Playfair Display', serif;
+    font-weight: 600;
     color: #25354f;
 }
 .footer{
